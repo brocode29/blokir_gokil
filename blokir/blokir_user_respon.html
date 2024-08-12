@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pusat Bantuan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans min-h-screen bg-gray-100">
+
+    <!-- Navbar -->
+    <div class="bg-red-700 text-white p-2 flex justify-between items-center">
+        <div class="flex space-x-4">
+            <a href="#" class="hover:underline ml-4">Beranda</a>
+            <a href="#" class="hover:underline">Seller Centre</a>
+        </div>
+        <div class="flex space-x-4 mr-4">
+            <a href="#" class="hover:underline">Keranjang</a>
+            <a href="#" class="hover:underline">Pesanan Saya</a>
+            <a href="#" class="hover:underline relative">
+                Bantuan
+                <span class="absolute top-0 right-0 bg-white text-red-700 rounded-full text-xs px-1">1</span>
+            </a>
+            <a href="#" class="hover:underline">Akun</a>
+        </div>
+    </div>
+
+    <!-- Content Wrapper -->
+    <div class="flex justify-center mt-4">
+
+        <!-- Main Content -->
+        <div class="w-3/4 p-6">
+            <h1 class="text-orange-500 text-3xl font-semibold">Pusat Bantuan</h1>
+            <hr class="border-t-2 border-gray-300 mt-2 mb-4">
+
+            <!-- Tabs -->
+            <div class="bg-white shadow-md rounded-lg p-4 h-full">
+                <div class="flex space-x-4 mb-4">
+                    <button class="bg-white border rounded-full py-2 px-4 shadow-sm font-semibold">Pendaftaran</button>
+                    <button class="bg-gray-100 border rounded-full py-2 px-4 shadow-sm text-gray-400">Transaksi</button>
+                </div>
+
+                <!-- Form -->
+                <div class="border border-gray-300 rounded-lg p-6">
+                    <!-- Sub Tabs Inside Form -->
+                    <div class="flex space-x-4 mb-6">
+                        <button class="bg-white border rounded-full py-2 px-4 shadow-sm font-semibold">Costumer</button>
+                        <button class="bg-gray-100 border rounded-full py-2 px-4 shadow-sm text-gray-400">UMKM</button>
+                    </div>
+
+                    <!-- Form Fields -->
+                    <div class="space-y-4">
+                        <!-- Nama -->
+                        <div class="flex items-center">
+                            <label class="w-1/4 text-left pr-4 font-medium">Nama :</label>
+                            <input type="text" class="w-3/4 border border-gray-300 rounded p-2">
+                        </div>
+
+                        <!-- Email -->
+                        <div class="flex items-center">
+                            <label class="w-1/4 text-left pr-4 font-medium">Email :</label>
+                            <input type="email" class="w-3/4 border border-gray-300 rounded p-2">
+                        </div>
+
+                        <!-- Alamat -->
+                        <div class="flex items-center">
+                            <label class="w-1/4 text-left pr-4 font-medium">Alamat :</label>
+                            <input type="text" class="w-3/4 border border-gray-300 rounded p-2">
+                        </div>
+
+                        <!-- Password -->
+                        <div class="flex items-center">
+                            <label class="w-1/4 text-left pr-4 font-medium">Password :</label>
+                            <input type="password" class="w-3/4 border border-gray-300 rounded p-2">
+                        </div>
+
+                        <!-- No. Rekening -->
+                        <div class="flex items-center">
+                            <label class="w-1/4 text-left pr-4 font-medium">No. Rekening :</label>
+                            <input type="text" class="w-3/4 border border-gray-300 rounded p-2">
+                        </div>
+
+                        <!-- Nama Rekening -->
+                        <div class="flex items-center">
+                            <label class="w-1/4 text-left pr-4 font-medium">Nama rekening :</label>
+                            <input type="text" class="w-3/4 border border-gray-300 rounded p-2">
+                        </div>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="flex justify-end mt-6">
+                        <button class="bg-orange-500 text-white py-2 px-4 rounded-lg hover:bg-orange-600">Blokir</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
